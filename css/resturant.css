@@ -1,0 +1,17 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+html{
+   cursor: url(imgs/plane.png);
+ font-family: 'NanumSquare', sans-serif;
+}
+body{
+  background-color: bisque;
+}
+.imgswap img:last-child{display:none} 
+.imgswap:hover img:first-child{display:none}
+.imgswap:hover img:last-child{display:inline-block}
+a{
+  text-decoration: none;
+  color: black;
+}
+
